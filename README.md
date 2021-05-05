@@ -1,4 +1,4 @@
-Visma Task /*****************************************************************************************************************************************************/ Rest API endpoint to add a new book. URI for the API is http://localhost:8080/visma/saveBook/
+Book Library Task /*****************************************************************************************************************************************************/ Rest API endpoint to add a new book. URI for the API is http://localhost:8080/visma/saveBook/
 
 Example of JSON Body { "name":"some title", "author":"some author", "category":"some category", "language":"some language", "publicationDate" : "23.04.2021", "isbn":"1234567890123"
 
