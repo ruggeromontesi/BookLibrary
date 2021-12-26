@@ -1,0 +1,12 @@
+it\ruggero\springboot\data\entity\Book.class
+it\ruggero\springboot\repository\ExtendedUserRepository.class
+it\ruggero\springboot\data\entity\User.class
+it\ruggero\springboot\controller\UserController.class
+it\ruggero\springboot\Example.class
+it\ruggero\springboot\controller\BookController.class
+it\ruggero\springboot\repository\UserRepository.class
+it\ruggero\springboot\controller\UtilityController.class
+it\ruggero\springboot\repository\BookRepository.class
+it\ruggero\springboot\mock\Rubbish.class
+it\ruggero\springboot\service\UserService.class
+it\ruggero\springboot\service\BookService.class
