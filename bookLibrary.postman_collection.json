@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "5edce765-fe46-45f4-96da-7d2e75068a9a",
+		"name": "bookLibrary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/ruggero/books/114095fb-4760-48ef-831d-fe8e5462bca7/1/10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ruggero/books/114095fb-4760-48ef-831d-fe8e5462bca7/1/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ruggero",
+						"books",
+						"114095fb-4760-48ef-831d-fe8e5462bca7",
+						"1",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ruggero/initialize",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ruggero/initialize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ruggero",
+						"initialize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TakeBook",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ruggero/books/114095fb-4760-48ef-831d-fe8e5462bca7/1/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ruggero",
+						"books",
+						"114095fb-4760-48ef-831d-fe8e5462bca7",
+						"1",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllBooks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ruggero/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ruggero",
+						"books"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

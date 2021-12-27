@@ -10,28 +10,28 @@ import java.util.UUID;
 @Table(name = "Book")
 public class Book {
     @Id
-    @Column(name = "book_id")
+    //@Column(name = "book_id")
     private String guid;
 
-    @Column(name = "book_title")
+    //@Column(name = "book_title")
     private String title;
 
-    @Column(name = "book_author")
+    //@Column(name = "book_author")
     private String author;
 
-    @Column(name = "book_category")
+    //@Column(name = "book_category")
     private String category;
 
-    @Column(name = "book_language")
+    //@Column(name = "book_language")
     private String language;
 
     @Column(name = "book_publication_date")
     private String publicationDate;
 
-    @Column(name = "book_isbn")
+    //@Column(name = "book_isbn")
     private String isbn;
 
-    @Column(name = "book_available")
+    //@Column(name = "book_available")
     private boolean available;
 
     @Column(name = "book_booked_period_days")

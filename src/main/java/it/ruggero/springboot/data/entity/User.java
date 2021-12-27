@@ -8,7 +8,7 @@ import java.util.TreeSet;
 @Table(name ="User")
 public class User {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
     private int id;
     private String name;
