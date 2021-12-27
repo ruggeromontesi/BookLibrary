@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 @Entity
-@Table(name ="User")
+@Table(name ="Usr")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
