@@ -146,6 +146,7 @@ public class Book {
       this.borrowerName = borrowerName;
    }
 
+   /*
    @Override
    public String toString() {
       return "Book{"
@@ -161,7 +162,7 @@ public class Book {
             + ", bookedPeriodDays=" + bookedPeriodDays
             + ", borrowerName='" + borrowerName + '\''
             + '}';
-   }
+   }*/
 
    @Override
    public boolean equals(Object o) {

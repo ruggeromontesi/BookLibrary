@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e7f006-d027-4f65-962c-00168dc7d2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Booklist.json" beforeDir="false" afterPath="$PROJECT_DIR$/Booklist.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Filter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Manage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/test/BookLibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/test/MyJsonTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/repository/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,44 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#saveBook#0;class#BookService#0" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/BookRestControllerMvcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2159">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="191">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Programs/apache-maven/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28-sources.jar!/org/mockito/stubbing/OngoingStubbing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Programs/apache-maven/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28-sources.jar!/org/mockito/internal/stubbing/BaseStubbing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +75,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/BookRestControllerMvcTest.java" />
       </list>
     </option>
   </component>
@@ -108,6 +91,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="11" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -173,6 +157,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VismaTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,6 +196,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VismaTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,10 +221,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../esempio/esempio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ruggero.booklibrary" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +244,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BookRestControllerMvcTest.testFindAll (1)">
+    <configuration name="BookRestControllerMvcTestOld.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VismaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruggero.booklibrary.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ruggero.booklibrary.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.ruggero.booklibrary.controllers.BookRestControllerMvcTestOld" />
+      <option name="METHOD_NAME" value="testAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookRestControllerMvcTestOld.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VismaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruggero.booklibrary.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ruggero.booklibrary.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.ruggero.booklibrary.controllers.BookRestControllerMvcTestOld" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookRestControllerMvcTest.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VismaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruggero.booklibrary.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ruggero.booklibrary.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.ruggero.booklibrary.controllers.BookRestControllerMvcTest" />
+      <option name="METHOD_NAME" value="testAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookRestControllerMvcTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VismaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruggero.booklibrary.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ruggero.booklibrary.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.ruggero.booklibrary.controllers.BookRestControllerMvcTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VismaTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="VismaTask" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruggero.booklibrary.VismaTaskApplication" />
@@ -244,6 +316,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookRestControllerMvcTest.testFindAll (1)" />
+        <item itemvalue="JUnit.BookRestControllerMvcTest.testAddBook (1)" />
+        <item itemvalue="JUnit.BookRestControllerMvcTestOld.testAddBook" />
+        <item itemvalue="JUnit.BookRestControllerMvcTestOld.testFindAll" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -256,7 +336,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641799834694</updated>
       <workItem from="1641799843274" duration="20458000" />
-      <workItem from="1641838500329" duration="6373000" />
+      <workItem from="1641838500329" duration="13295000" />
     </task>
     <task id="LOCAL-00001" summary="improved formatting of  Book class">
       <created>1641803250712</created>
@@ -268,8 +348,40 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BookRestControllerMvcTest_testAddBook - 2022.01.11 at 00h 55m 14s.xml">
+      <configuration name="BookRestControllerMvcTest.testAddBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testAddBook - 2022.01.11 at 00h 55m 25s.xml">
+      <configuration name="BookRestControllerMvcTest.testAddBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testAddBook_(1) - 2022.01.11 at 00h 56m 38s.xml">
+      <configuration name="BookRestControllerMvcTest.testAddBook (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 00h 57m 08s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 01h 02m 43s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 01h 02m 56s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 01h 06m 25s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 01h 08m 59s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 01h 09m 53s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRestControllerMvcTest_testFindAll_(1) - 2022.01.11 at 01h 12m 01s.xml">
+      <configuration name="BookRestControllerMvcTest.testFindAll (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26831000" />
+    <option name="totallyTimeSpent" value="33753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -286,17 +398,17 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3696884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23654391" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Package References" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5084986" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41076487" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
@@ -321,24 +433,93 @@
     <MESSAGE value="improved formatting of  Book class" />
     <option name="LAST_COMMIT_MESSAGE" value="improved formatting of  Book class" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar!/org/springframework/test/web/servlet/result/ContentResultMatchers.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar!/org/springframework/test/web/servlet/result/ContentResultMatchers.java</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Java/jdk11/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -433,18 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/test/BookLibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4258">
@@ -477,35 +646,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/VismaTaskApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="425">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#saveBook#0;class#BookService#0" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
             <element signature="e#1162#1163#0" expanded="true" />
             <element signature="e#1210#1211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar!/org/junit/platform/engine/support/hierarchical/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar!/org/junit/platform/engine/support/hierarchical/SameThreadHierarchicalTestExecutorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2159">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="341">
+          <caret line="164" column="6" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1937#1938#0" expanded="true" />
             <element signature="e#1994#1995#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar!/org/skyscreamer/jsonassert/JSONParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6.jar!/org/springframework/test/util/JsonExpectationsHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6.jar!/org/springframework/test/web/servlet/result/ContentResultMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="357" selection-start-line="357" selection-end-line="357" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk11/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar!/org/springframework/test/util/JsonExpectationsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar!/org/springframework/test/web/servlet/result/ContentResultMatchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="e#6688#6689#0" expanded="true" />
+            <element signature="e#6726#6727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk11/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/VismaTaskApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar!/org/mockito/stubbing/OngoingStubbing.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28-sources.jar!/org/mockito/stubbing/OngoingStubbing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/apache-maven/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28-sources.jar!/org/mockito/internal/stubbing/BaseStubbing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/BookRestControllerMvcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
