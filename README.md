@@ -1,4 +1,4 @@
-This project was created in April 2021 when apllying(attempting to apply) for the position of java intern at Visma
+This project was created in April 2021 when applying(attempting to apply) for the position of java intern at Visma
 
 Book Library Task /*****************************************************************************************************************************************************/ Rest API endpoint to add a new book. URI for the API is http://localhost:8080/visma/saveBook/
 
