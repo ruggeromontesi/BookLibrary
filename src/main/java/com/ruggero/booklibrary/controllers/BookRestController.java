@@ -23,10 +23,10 @@ public class BookRestController {
 	public Book createBook(@RequestBody Book  book ) throws IOException {
 		
 	    if (Util.validateInputBook(book)) {	
-		    List<Book> bookList = Util.retrieve(); 
-		    bookList.add(book);
-		    Util.store(bookList);
-		    return  book;
+		    List<Book> bookList = Util.retrieve();
+			 bookList.add(book);
+			 Util.store(bookList);
+			 return  book;
 	    } else return null;
 	}
 	
@@ -58,7 +58,10 @@ public class BookRestController {
 			
 			throw new DuplicatedGUIDException();
 		}
-	}		
+	}
+
+
+
 
 	
 	

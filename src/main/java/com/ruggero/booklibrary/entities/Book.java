@@ -35,6 +35,9 @@ public class Book {
    private String borrowerName;
 
    public Book() {
+      setGuid();
+      this.available = true;
+      this.borrowerName = "";
    }
 
    public Book(String name, String author, String category, String language, String publicationDate, String isbn) {
@@ -45,6 +48,8 @@ public class Book {
       this.language = language;
       this.publicationDate = publicationDate;
       this.isbn = isbn;
+      this.available = true;
+      this.borrowerName = "";
    }
 
    public static int getCount() {

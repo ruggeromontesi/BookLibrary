@@ -39,8 +39,7 @@ public class Util {
 		}
 		if(file.exists())
 			System.out.println("A new one was  created!");
-		
-		
+
 		
 		ObjectMapper objectMapper = new ObjectMapper();
 		
@@ -59,8 +58,7 @@ public class Util {
 	}
 	
 	/******************************/
-	
-	
+
 	 public static List<Book> retrieve() throws IOException{
       List<Book> bookList = new ArrayList<>();
       ObjectMapper mapper = new ObjectMapper();
@@ -103,31 +101,30 @@ public class Util {
 	 
 	 /*******************/
 		public static void store( List<Book> bookList )throws IOException {
-
 			ObjectMapper objectMapper = new ObjectMapper();
-			
-			
-				objectMapper.writeValue(new File(Util.getFilePath() ), bookList);
+			objectMapper.writeValue(new File(Util.getFilePath() ), bookList);
 
-			
-			
-			
 		}
 		
 		
 		/****validate input book
 		 * @throws IOException ***/
 		
-		public static boolean validateInputBook(Book book) throws IOException {
+		public static boolean validateInputBook(Book book) {
 			
 			if( book.getName()==(null)||book.getAuthor()==(null)||book.getCategory()==(null)
 					||book.getLanguage()==(null)||book.getPublicationDate().equals("")
 					||book.getIsbn().equals("")) return false;
+			List<Book> books = new ArrayList<>();
+			try {
+				books = retrieve();
+			} catch( IOException exception) {
+
+			}
 			
-			
-			for(Book bookInt : retrieve() )
+			for(Book bookInt : books )
 				if(bookInt.looseEquals(book)) {
-					System.out.println("Warning: The two books are having smae title, author,category, language and publication date!");
+					System.out.println("Warning: The two books are having same title, author,category, language and publication date!");
 					return false;
 				}
 			
@@ -148,10 +145,7 @@ public class Util {
 			else return true;
 			
 		}
-		
 
-		
-		
 		public static Book getBook(String guid) throws IOException {
 	        List<Book> internalBookList = new ArrayList<Book>();
 	        List<Book> bookList = Util.retrieve(); 
@@ -166,12 +160,7 @@ public class Util {
 	        }     
 	        return new Book();
 		}
-		
-		
-		
-		
-		
-		
+
 		public static String generateRandomString() {
 		    byte[] array = new byte[7]; // length is bounded by 7
 		    new Random().nextBytes(array);
@@ -182,7 +171,7 @@ public class Util {
 		
 		
 		/*used in JUNIT test to generate random ISBN*/
-	    public static String generateRandomIsbn(){
+		public static String generateRandomIsbn(){
 	        String randomIsbn = "";
 	        for(int i =0; i< 13 ; i++)
 	            randomIsbn = randomIsbn + (int) (10*Math.random());
