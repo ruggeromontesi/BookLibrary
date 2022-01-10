@@ -1,0 +1,49 @@
+[ {
+  "id" : 0,
+  "name" : "OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide: Exam 1Z0-815, Exam 1Z0-816, and Exam 1Z0-817",
+  "author" : "Boyarsky, Jeanne; Selikoff, Scott",
+  "category" : "COMPUTER/Certification Guides",
+  "language" : "english",
+  "publicationDate" : "23.01.2020",
+  "isbn" : "9781119619130",
+  "guid" : "fa1783d2-62b4-4904-8701-6bba9a3c11be",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
+}, {
+  "id" : 1,
+  "name" : "OCP Oracle Certified Professional Java SE 11 Programmer II Study Guide: Exam 1Z0-816 and Exam 1Z0-817",
+  "author" : "Boyarsky, Jeanne; Selikoff, Scott",
+  "category" : "COMPUTER/Certification Guides",
+  "language" : "english",
+  "publicationDate" : "23.07.2020",
+  "isbn" : "9781119617624",
+  "guid" : "400c84b8-ac0f-4270-9df7-ab2a66b1ee07",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
+}, {
+  "id" : 3,
+  "name" : "OCP Oracle Certified Professional Java SE 11 Developer Practice Tests",
+  "author" : "Boyarsky, Jeanne; Selikoff, Scott",
+  "category" : "COMPUTER/ProgramminglanguageS/Java",
+  "language" : "english",
+  "publicationDate" : "23.03.2021",
+  "isbn" : "9781119696131",
+  "guid" : "86173df6-8a25-4190-95ca-e221462d635c",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
+}, {
+  "id" : 6,
+  "name" : "Head First Java",
+  "author" : "Kathy Sierra; Bert Bates",
+  "category" : "COMPUTER/ProgramminglanguageS/Java",
+  "language" : "english",
+  "publicationDate" : "23.03.2005",
+  "isbn" : "9780596009205",
+  "guid" : "1cd93e76-c48e-40d0-b79b-3d4b41cf8005",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
+} ]

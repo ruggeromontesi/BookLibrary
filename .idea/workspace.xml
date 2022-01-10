@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e7f006-d027-4f65-962c-00168dc7d2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Booklist.json" beforeDir="false" afterPath="$PROJECT_DIR$/Booklist.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Manage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/VismaTask-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/VismaTask-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/VismaTask-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/VismaTask-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/test/BookLibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/test/MyJsonTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/BookService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,49 +25,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="216">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getBookByGuid#0;class#BookRepository#0" />
-                <element signature="method#getBookById#0;class#BookRepository#0" />
-                <element signature="method#save#0;class#BookRepository#0" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-core/5.3.6/spring-core-5.3.6.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-aop/5.3.6/spring-aop-5.3.6.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="457" column="20" selection-start-line="457" selection-start-column="20" selection-end-line="457" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Programs/apache-maven/repository/org/springframework/spring-web/5.3.6/spring-web-5.3.6.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="256">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#saveBook#0;class#BookService#0" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,12 +61,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="-2159">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#1994#1995#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,9 +92,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/BookNew.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" />
       </list>
     </option>
@@ -129,18 +114,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="y" value="-1088" />
-    <option name="width" value="3866" />
-    <option name="height" value="2106" />
+    <option name="x" value="-719" />
+    <option name="y" value="196" />
+    <option name="width" value="2417" />
+    <option name="height" value="1317" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,15 +173,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VismaTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,10 +182,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VismaTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VismaTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VismaTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="booklibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +219,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../esempio/esempio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -258,7 +255,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641799834694</updated>
-      <workItem from="1641799843274" duration="17429000" />
+      <workItem from="1641799843274" duration="20458000" />
+      <workItem from="1641838500329" duration="6373000" />
     </task>
     <task id="LOCAL-00001" summary="improved formatting of  Book class">
       <created>1641803250712</created>
@@ -271,49 +269,49 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17429000" />
+    <option name="totallyTimeSpent" value="26831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1914" y="-1082" width="1933" height="1053" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="simpleUML" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Package References" />
-      <window_info anchor="bottom" id="Terminal" weight="0.34777898" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
-      <window_info anchor="bottom" id="Stack trace to UML" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3696884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="UML Generator" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Package References" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5084986" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32936078" />
+      <window_info anchor="bottom" id="Stack trace to UML" order="17" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="UML Generator" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,94 +321,9 @@
     <MESSAGE value="improved formatting of  Book class" />
     <option name="LAST_COMMIT_MESSAGE" value="improved formatting of  Book class" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java</url>
-          <line>149</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1515">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Manage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="method#takeBook#0;class#Manage#0" />
-            <element signature="method#releaseBook#0;class#Manage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#saveBook#0;class#BookService#0" />
-            <element signature="method#getBookById#0;class#BookService#0" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,30 +336,6 @@
             <element signature="e#1047#1048#0" expanded="true" />
             <element signature="e#1096#1097#0" expanded="true" />
             <element signature="e#1358#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="method#retrieve#0;class#Util#0" />
-            <element signature="method#validateInputBook#0;class#Util#0" />
-            <element signature="method#canBorrow#0;class#Util#0" />
-            <element signature="method#getBook#0;class#Util#0" />
-            <element signature="e#4274#4280#0" expanded="true" />
-            <element signature="method#generateRandomString#0;class#Util#0" />
-            <element signature="method#generateRandomIsbn#0;class#Util#0" />
-            <element signature="method#generateRandomDate#0;class#Util#0" />
-            <element signature="method#generateRandomInteger#0;class#Util#0" />
-            <element signature="method#generateRandomIntegerCapped#0;class#Util#0" />
-            <element signature="method#indexGenerator#0;class#Util#0" />
-            <element signature="method#validateStringToDate#0;class#Util#0" />
-            <element signature="method#compareDatesAsString#0;class#Util#0" />
-            <element signature="method#validateIsbn#0;class#Util#0" />
-            <element signature="method#idGen#0;class#Util#0" />
           </folding>
         </state>
       </provider>
@@ -521,27 +410,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="116" />
+          <folding>
+            <element signature="method#initializeArchiveFile#0;class#Util#0" />
+            <element signature="method#validateInputBook#0;class#Util#0" />
+            <element signature="method#canBorrow#0;class#Util#0" />
+            <element signature="method#getBook#0;class#Util#0" />
+            <element signature="method#generateRandomString#0;class#Util#0" />
+            <element signature="method#generateRandomIsbn#0;class#Util#0" />
+            <element signature="method#generateRandomDate#0;class#Util#0" />
+            <element signature="method#generateRandomInteger#0;class#Util#0" />
+            <element signature="method#generateRandomIntegerCapped#0;class#Util#0" />
+            <element signature="method#indexGenerator#0;class#Util#0" />
+            <element signature="method#validateStringToDate#0;class#Util#0" />
+            <element signature="method#compareDatesAsString#0;class#Util#0" />
+            <element signature="method#validateIsbn#0;class#Util#0" />
+            <element signature="method#idGen#0;class#Util#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="216">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getBookByGuid#0;class#BookRepository#0" />
-            <element signature="method#getBookById#0;class#BookRepository#0" />
-            <element signature="method#save#0;class#BookRepository#0" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/test/BookLibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4258">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Manage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="method#takeBook#0;class#Manage#0" />
+            <element signature="method#releaseBook#0;class#Manage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1483">
+          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/VismaTaskApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveBook#0;class#BookService#0" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="-2159">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,8 +4,6 @@ import java.util.UUID;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import com.ruggero.booklibrary.service.Util;
-
 @Entity
 public class Book {
 
@@ -105,7 +103,7 @@ public class Book {
    }
 
    public void setPublicationDate(String publicationDateString) {
-      this.publicationDate = Util.validateStringToDate(publicationDateString);
+      this.publicationDate = publicationDateString;
    }
 
    public String getIsbn() {
