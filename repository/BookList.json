@@ -82,4 +82,28 @@
   "available" : true,
   "bookedPeriodDays" : 0,
   "borrowerName" : ""
+}, {
+  "id" : 0,
+  "name" : "OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808",
+  "author" : "Jeanne Boyarsky, Scott Selikoff",
+  "category" : "Computers - Programming",
+  "language" : "english",
+  "publicationDate" : "23.01.2014",
+  "isbn" : "1118957407",
+  "guid" : "76e32802-8b5c-4ba3-a46c-858c6f2253f1",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
+}, {
+  "id" : 8,
+  "name" : "OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808",
+  "author" : "Jeanne Boyarsky, Scott Selikoff",
+  "category" : "Computers - Programming",
+  "language" : "english",
+  "publicationDate" : "23.01.2014",
+  "isbn" : "1118957407",
+  "guid" : "a057e5d9-7e1e-4f9d-ae73-48c0eef0ad14",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
 } ]

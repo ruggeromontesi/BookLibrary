@@ -60,6 +60,28 @@ public class BookRepository {
       }
    }
 
+   public List<Book> filterBook(String name, String author, String language) {
+      List<Book> books = retrieve();
+      List<Book> previousResult = new ArrayList<>(books);
+      if (!name.equals("all")) {
+         books = previousResult.stream().filter(b -> b.getName().contains(name)).collect(Collectors.toList());
+         previousResult = new ArrayList<>(books);
+      }
+
+      if (!author.equals("all")) {
+         books = previousResult.stream().filter(b -> b.getAuthor().contains(author)).collect(Collectors.toList());
+         previousResult = new ArrayList<>(books);
+      }
+
+      if (!language.equals("all")) {
+         books = previousResult.stream().filter(b -> b.getAuthor().contains(author)).collect(Collectors.toList());
+         previousResult = new ArrayList<>(books);
+      }
+
+      return books;
+   }
+
+
    private static void initialize() {
       File file = new File (filePath);
       File directory = new File(DIRECTORY_NAME);

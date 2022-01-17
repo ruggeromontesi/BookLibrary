@@ -39,4 +39,8 @@ public class BookService {
 
    }
 
+   public List<Book> filterBook(String name, String title, String language) {
+      return bookRepository.filterBook(name, title, language);
+   }
+
 }

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -49,6 +50,18 @@ public class BookController {
    public Book deleteBookById(@PathVariable("guid") String guid) {
       bookService.deleteBookById(guid);
       return null;
+   }
+
+   /**
+    * Rest API endpoint to filter books.
+    *
+    * @return Book
+    */
+   @GetMapping("/books/filter")
+   //@RequestParam(value = "name", defaultValue = "World"
+   public List<Book> filterBook(@RequestParam(value = "name", defaultValue = "all") String name, @RequestParam(value = "author",
+         defaultValue = "all") String title, @RequestParam(value = "language", defaultValue = "all") String language) {
+      return bookService.filterBook(name, title, language);
    }
 
 
