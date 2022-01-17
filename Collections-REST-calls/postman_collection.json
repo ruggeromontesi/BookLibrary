@@ -123,24 +123,49 @@
 			]
 		},
 		{
-			"name": "get all the books",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/visma/books",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"visma",
-						"books"
-					]
+			"name": "get books",
+			"item": [
+				{
+					"name": "get all the books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/visma/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"visma",
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a book with guid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/books/a057e5d9-7e1e-4f9d-ae73-48c0eef0ad14",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books",
+								"a057e5d9-7e1e-4f9d-ae73-48c0eef0ad14"
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
 			"name": "add a book dummy",
@@ -195,27 +220,6 @@
 					"path": [
 						"visma",
 						"books"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get a book with guid",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/visma/books/251712f8-d96f-42e0-9f3e-7d4056e3f22e",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"visma",
-						"books",
-						"251712f8-d96f-42e0-9f3e-7d4056e3f22e"
 					]
 				}
 			},
