@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="VismaTask" target="1.8" />
+      <module name="VismaTask" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

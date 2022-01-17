@@ -46,4 +46,40 @@
   "available" : true,
   "bookedPeriodDays" : 0,
   "borrowerName" : ""
+}, {
+  "id" : 0,
+  "name" : "ruggero titolo",
+  "author" : "ruggero autore",
+  "category" : "categoria",
+  "language" : "lingua",
+  "publicationDate" : "17.01.2022",
+  "isbn" : "12345678910",
+  "guid" : "string",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : "string"
+}, {
+  "id" : 14,
+  "name" : "Java A Beginner's Guide",
+  "author" : "Schildt",
+  "category" : "programming language",
+  "language" : "english",
+  "publicationDate" : "23.04.2021",
+  "isbn" : "1234567890123",
+  "guid" : "a5b6bab0-a1b6-4b46-9e57-22d42fd5dcbe",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
+}, {
+  "id" : 20,
+  "name" : "Java: A Beginner?s Guide, Eighth Edition",
+  "author" : "Herbert Schildt",
+  "category" : "Computers - Programming",
+  "language" : "english",
+  "publicationDate" : "23.10.2018",
+  "isbn" : "9781260440225",
+  "guid" : "5791cdaa-faaa-4872-8781-2e1589315f34",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "borrowerName" : ""
 } ]

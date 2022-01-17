@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "4977240a-39f4-4da9-92f2-2421fcf7a675",
+		"name": "Visma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add books",
+			"item": [
+				{
+					"name": "01-Java a beginners guide-ok",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n     \"name\":\"Java: A Beginner’s Guide, Eighth Edition\",\r\n     \"author\":\"Herbert Schildt\",\r\n     \"category\":\"Computers - Programming\",\r\n     \"language\":\"english\", \r\n     \"publicationDate\" : \"23.10.2018\",\r\n     \"isbn\":\"9781260440225\"\r\n\r\n} \r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "02-OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n     \"name\":\"OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808\",\r\n     \"author\":\"Jeanne Boyarsky, Scott Selikoff\",\r\n     \"category\":\"Computers - Computer Certification & Training\",\r\n     \"language\":\"english\", \r\n     \"publicationDate\" : \"23.01.2014\",\r\n     \"isbn\":\"1118957407\"\r\n\r\n} \r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03-OCA: OCA / OCP Java SE 8 Programmer Practice Tests",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n     \"name\":\"OCA / OCP Java SE 8 Programmer Practice Tests\",\r\n     \"author\":\"Scott Selikoff, Jeanne Boyarsky\",\r\n     \"category\":\"programming language\",\r\n     \"language\":\"english\", \r\n     \"publicationDate\" : \"23.04.2021\",\r\n     \"isbn\":\"1234567890123\"\r\n\r\n} \r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04-Java: The Complete Reference, Eleventh Edition",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n     \"name\":\"OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808\",\r\n     \"author\":\"Jeanne Boyarsky, Scott Selikoff\",\r\n     \"category\":\"Computers - Programming\",\r\n     \"language\":\"english\", \r\n     \"publicationDate\" : \"23.01.2014\",\r\n     \"isbn\":\"1118957407\"\r\n\r\n} \r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "get all the books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/visma/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visma",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add a book dummy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"dummybook\",\r\n    \"author\" : \"author\",\r\n    \"category\" : \"categor\",\r\n    \"publicationDate\" : \"23.04.2011\",\r\n    \"language\" : \"english\",\r\n    \"isbn\" : \"1234567890123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/visma/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visma",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10002 - add a book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n     \"name\":\"OCA Study Guide\",\r\n     \"author\":\"Boyarsky Selikoff\",\r\n     \"category\":\"programming language\",\r\n     \"language\":\"english\", \r\n     \"publicationDate\" : \"23.04.2018\",\r\n     \"isbn\":\"1234567810002\"\r\n\r\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/visma/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visma",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a book with guid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/visma/books/251712f8-d96f-42e0-9f3e-7d4056e3f22e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visma",
+						"books",
+						"251712f8-d96f-42e0-9f3e-7d4056e3f22e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \r\n       \"author\": \"aaaaaaaa\",\r\n       \"category\": \"bbbbbbb\"\r\n       \r\n       \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/visma/provafiltro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visma",
+						"provafiltro"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
