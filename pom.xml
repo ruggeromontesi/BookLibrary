@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ruggero.booklibrary</groupId>
-	<artifactId>VismaTask</artifactId>
+	<artifactId>BookLibrary</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>VismaTask</name>
+	<name>BookLibrary</name>
 	<description>Task for Visma Lietuva</description>
 	<properties>
 		<java.version>11</java.version>
