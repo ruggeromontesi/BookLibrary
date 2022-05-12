@@ -7,7 +7,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -56,7 +55,7 @@ public class BookRestControllerMvcTest {
    @Test
    public void  testAddBook() throws Exception{
       Book book = new Book();
-      book.setName("ruggero");
+      book.setTitle("ruggero");
       //when(bookService.saveBook(any()).thenReturn(book);
       when(bookService.saveBook(any())).thenReturn(book);
       //when(bookRepository.save(book)).thenReturn(book);
@@ -78,9 +77,9 @@ public class BookRestControllerMvcTest {
 
    private List<Book> createBooks() {
       Book book = new Book();
-      book.setName("ruggero");
+      book.setTitle("ruggero");
       Book book1 = new Book();
-      book1.setName("montesi");
+      book1.setTitle("montesi");
       return Arrays.asList(book, book1);
    }
 }

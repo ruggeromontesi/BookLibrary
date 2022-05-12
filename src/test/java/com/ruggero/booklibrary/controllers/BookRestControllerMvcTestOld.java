@@ -8,7 +8,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -75,7 +74,7 @@ public class BookRestControllerMvcTestOld {
 
    private Book createBook() {
       Book book = new Book();
-      book.setName("OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide: Exam 1Z0-815, Exam 1Z0-816, and Exam 1Z0-817");
+      book.setTitle("OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide: Exam 1Z0-815, Exam 1Z0-816, and Exam 1Z0-817");
       book.setAuthor("Boyarsky, Jeanne; Selikoff, Scott");
       book.setCategory("COMPUTER/Certification Guides");
       book.setLanguage("english");

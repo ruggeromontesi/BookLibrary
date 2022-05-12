@@ -64,7 +64,7 @@ public class BookRepository {
       List<Book> books = retrieve();
       List<Book> previousResult = new ArrayList<>(books);
       if (!name.equals("all")) {
-         books = previousResult.stream().filter(b -> b.getName().contains(name)).collect(Collectors.toList());
+         books = previousResult.stream().filter(b -> b.getTitle().contains(name)).collect(Collectors.toList());
          previousResult = new ArrayList<>(books);
       }
 

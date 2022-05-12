@@ -12,7 +12,7 @@ public class Book {
    @Id
    private  int id = count++;
 
-   private String name;
+   private String title;
 
    private String author;
 
@@ -40,7 +40,7 @@ public class Book {
 
    public Book(String name, String author, String category, String language, String publicationDate, String isbn) {
       setGuid();
-      this.name = name;
+      this.title = name;
       this.author = author;
       this.category = category;
       this.language = language;
@@ -66,12 +66,12 @@ public class Book {
       this.id = id;
    }
 
-   public String getName() {
-      return name;
+   public String getTitle() {
+      return title;
    }
 
-   public void setName(String name) {
-      this.name = name;
+   public void setTitle(String name) {
+      this.title = name;
    }
 
    public String getAuthor() {
@@ -184,7 +184,7 @@ public class Book {
       if (getBookedPeriodDays() != book.getBookedPeriodDays()) {
          return false;
       }
-      if (!getName().equals(book.getName())) {
+      if (!getTitle().equals(book.getTitle())) {
          return false;
       }
       if (!getAuthor().equals(book.getAuthor())) {
@@ -211,7 +211,7 @@ public class Book {
    @Override
    public int hashCode() {
       int result = getId();
-      result = 31 * result + getName().hashCode();
+      result = 31 * result + getTitle().hashCode();
       result = 31 * result + getAuthor().hashCode();
       result = 31 * result + getCategory().hashCode();
       result = 31 * result + getLanguage().hashCode();
@@ -257,11 +257,11 @@ public class Book {
       } else if (!language.equals(other.language)) {
          return false;
       }
-      if (name == null) {
-         if (other.name != null) {
+      if (title == null) {
+         if (other.title != null) {
             return false;
          }
-      } else if (!name.equals(other.name)) {
+      } else if (!title.equals(other.title)) {
          return false;
       }
       if (publicationDate == null) {
