@@ -1,6 +1,0 @@
-com\ruggero\booklibrary\controllers\BookController.class
-com\ruggero\booklibrary\entities\Book.class
-com\ruggero\booklibrary\exceptions\DuplicatedGUIDException.class
-com\ruggero\booklibrary\repository\BookRepository.class
-com\ruggero\booklibrary\BookLibraryApplication.class
-com\ruggero\booklibrary\service\BookService.class

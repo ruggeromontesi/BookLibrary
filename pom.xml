@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.ruggero.booklibrary</groupId>
 	<artifactId>BookLibrary</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>BookLibrary</name>
-	<description>Task for Visma Lietuva</description>
+	<version>0.1</version>
+	<name>book-library</name>
+	<description>Task for Visma Lietuva -April 2021</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

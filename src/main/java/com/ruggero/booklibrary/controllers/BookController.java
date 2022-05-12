@@ -5,6 +5,7 @@ import java.util.List;
 import com.ruggero.booklibrary.entities.Book;
 import com.ruggero.booklibrary.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,10 +25,10 @@ public class BookController {
    private BookService bookService;
 
    /** Rest API endpoint to  add a Book.
-    *
+    * @param book book to be added
     * @return Book */
    @PostMapping("/books")
-   public Book addBook(@RequestBody Book book) {
+   public Book addBook(@RequestBody  Book book) {
       return bookService.saveBook(book);
    }
 
