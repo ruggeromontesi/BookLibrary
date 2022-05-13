@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e7f006-d027-4f65-962c-00168dc7d2e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VismaTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VismaTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/BookList.json" beforeDir="false" afterPath="$PROJECT_DIR$/repository/BookList.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTestOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ruggero/booklibrary/controllers/BookRestControllerMvcTestOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +60,9 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -306,7 +301,9 @@
       <workItem from="1642489934644" duration="1008000" />
       <workItem from="1642499647952" duration="994000" />
       <workItem from="1642505866747" duration="156000" />
-      <workItem from="1652369480185" duration="1542000" />
+      <workItem from="1652369480185" duration="9399000" />
+      <workItem from="1652416929533" duration="7144000" />
+      <workItem from="1652437022393" duration="3533000" />
     </task>
     <task id="LOCAL-00001" summary="improved formatting of  Book class">
       <created>1641803250712</created>
@@ -471,6 +468,16 @@
           <url>jar://$PROJECT_DIR$/../../../../../../../Programs/apache-maven/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar!/org/springframework/test/web/servlet/result/ContentResultMatchers.java</url>
           <line>214</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

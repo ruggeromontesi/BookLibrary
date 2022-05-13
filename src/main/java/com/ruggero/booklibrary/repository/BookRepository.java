@@ -19,8 +19,10 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class BookRepository {
    private static final String FILE_NAME = "BookList.json";
-   private final static String DIRECTORY_NAME = ".\\repository";
-   private  static String filePath = DIRECTORY_NAME + "\\"+ FILE_NAME;
+
+   private static final String DIRECTORY_NAME = ".\\repository";
+
+   private static final String filePath = DIRECTORY_NAME + "\\" + FILE_NAME;
 
    static {
       initialize();
@@ -60,36 +62,23 @@ public class BookRepository {
       }
    }
 
-   public List<Book> filterBook(String name, String author, String language) {
-      List<Book> books = retrieve();
-      List<Book> previousResult = new ArrayList<>(books);
-      if (!name.equals("all")) {
-         books = previousResult.stream().filter(b -> b.getTitle().contains(name)).collect(Collectors.toList());
-         previousResult = new ArrayList<>(books);
-      }
-
-      if (!author.equals("all")) {
-         books = previousResult.stream().filter(b -> b.getAuthor().contains(author)).collect(Collectors.toList());
-         previousResult = new ArrayList<>(books);
-      }
-
-      if (!language.equals("all")) {
-         books = previousResult.stream().filter(b -> b.getAuthor().contains(author)).collect(Collectors.toList());
-         previousResult = new ArrayList<>(books);
-      }
-
-      return books;
+   public List<Book> filterBook(String title, String author, String category, String language) {
+      return retrieve().stream().filter(book ->
+               (title.equals("all") ^ book.getTitle().contains(title))
+                     && (author.equals("all") ^ book.getAuthor().equals(author))
+                     && (category.equals("all") ^ book.getCategory().equals(category))
+                     && (language.equals("all") ^ book.getLanguage().equals(language))
+      ).collect(Collectors.toList());
    }
 
-
    private static void initialize() {
-      File file = new File (filePath);
+      File file = new File(filePath);
       File directory = new File(DIRECTORY_NAME);
       if (!directory.exists()) {
          System.out.println("Directory does not exist");
          directory.mkdir();
       }
-      if(!file.exists()) {
+      if (!file.exists()) {
          System.out.println("File does not exist");
 
          try {
@@ -112,7 +101,6 @@ public class BookRepository {
          while (scanner.hasNextLine()) {
             value += scanner.nextLine();
          }
-
 
       } catch (IOException e) {
          System.out.println("Problems while reading file!");
@@ -146,5 +134,11 @@ public class BookRepository {
          System.out.println("Problem while writing to file!");
       }
 
+   }
+
+   public void deleteAllBooks() {
+      List<Book> bookList = retrieve();
+      bookList.clear();
+      store(bookList);
    }
 }

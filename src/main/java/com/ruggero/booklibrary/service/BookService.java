@@ -39,8 +39,11 @@ public class BookService {
 
    }
 
-   public List<Book> filterBook(String name, String title, String language) {
-      return bookRepository.filterBook(name, title, language);
+   public List<Book> filterBook(String title, String author,String category, String language) {
+      return bookRepository.filterBook(title, author, category, language);
    }
 
+   public void deleteAllBooks() {
+      bookRepository.deleteAllBooks();
+   }
 }

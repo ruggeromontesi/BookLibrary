@@ -50,7 +50,7 @@ public class BookController {
    **/
    @GetMapping("/books")
    public List<Book> getAllBooks() {
-      return bookService.getAllBooks();
+       return bookService.getAllBooks();
    }
 
    /** Rest API endpoint to  get a book by GUID.
@@ -70,6 +70,7 @@ public class BookController {
     * @param category all books with field category equal to this parameter are retrieved
     * @param language all books with field category equal to this parameter are retrieved
     * @param isbn all books with field category equal to this parameter are retrieved
+    * @param taken all books with field taken equal to this parameter are retrieved
     * @return Book
     */
    @GetMapping("/books/filter")
@@ -79,9 +80,17 @@ public class BookController {
                                 @RequestParam(value = "category", defaultValue = "all") String category,
                                 @RequestParam(value = "language", defaultValue = "all") String language,
                                 @RequestParam(value = "isbn", defaultValue = "all") String isbn,
-                                @RequestParam(value = "isbn", defaultValue = "all") boolean taken
+                                @RequestParam(value = "taken", defaultValue = "false") boolean taken
                                 ) {
-      return bookService.filterBook(author, category, language);
+      return bookService.filterBook(title,author, category, language);
    }
 
+
+   /** Rest API endpoint to  get a book by GUID.
+    * @return List<@Book>
+    * */
+   @DeleteMapping("/books")
+   public void deleteAllBooks() {
+       bookService.deleteAllBooks();
+   }
 }
