@@ -2,6 +2,7 @@ package com.ruggero.booklibrary.controllers;
 
 import java.util.List;
 
+import com.ruggero.booklibrary.dto.TakeBookDTO;
 import com.ruggero.booklibrary.entities.Book;
 import com.ruggero.booklibrary.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,7 +83,7 @@ public class BookController {
                                 @RequestParam(value = "isbn", defaultValue = "all") String isbn,
                                 @RequestParam(value = "taken", defaultValue = "false") boolean taken
                                 ) {
-      return bookService.filterBook(title,author, category, language);
+      return bookService.filterBook(title,author, category, language, isbn, taken);
    }
 
 
@@ -92,5 +93,12 @@ public class BookController {
    @DeleteMapping("/books")
    public void deleteAllBooks() {
        bookService.deleteAllBooks();
+   }
+
+
+   @PostMapping("/books/take")
+   public Book takeBook(@RequestBody TakeBookDTO dto) {
+      bookService.takeBook(dto);
+      return null;
    }
 }

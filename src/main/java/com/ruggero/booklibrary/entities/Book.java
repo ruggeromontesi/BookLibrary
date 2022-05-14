@@ -3,6 +3,9 @@ package com.ruggero.booklibrary.entities;
 import java.util.UUID;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 public class Book {
@@ -30,12 +33,14 @@ public class Book {
 
    private int bookedPeriodDays;
 
-   private String borrowerName;
+   @JsonIgnoreProperties("borrowedBooks")
+   @ManyToOne
+   private BookLibraryUser user;
 
    public Book() {
       setGuid();
       this.available = true;
-      this.borrowerName = "";
+
    }
 
    public Book(String name, String author, String category, String language, String publicationDate, String isbn) {
@@ -47,7 +52,7 @@ public class Book {
       this.publicationDate = publicationDate;
       this.isbn = isbn;
       this.available = true;
-      this.borrowerName = "";
+
    }
 
    public static int getCount() {
@@ -138,12 +143,12 @@ public class Book {
       this.bookedPeriodDays = bookedPeriodDays;
    }
 
-   public String getBorrowerName() {
-      return borrowerName;
+   public BookLibraryUser getUser() {
+      return user;
    }
 
-   public void setBorrowerName(String borrowerName) {
-      this.borrowerName = borrowerName;
+   public void setUser(BookLibraryUser borrowerName) {
+      this.user = borrowerName;
    }
 
    /*
@@ -205,7 +210,8 @@ public class Book {
       if (!getGuid().equals(book.getGuid())) {
          return false;
       }
-      return getBorrowerName().equals(book.getBorrowerName());
+      //return getUser().equals(book.getUser());
+      return getUser() == null ? (book.getUser() == null ? true :false) : getUser().equals(book.getUser());
    }
 
    @Override
@@ -220,7 +226,7 @@ public class Book {
       result = 31 * result + getGuid().hashCode();
       result = 31 * result + (getAvailable() ? 1 : 0);
       result = 31 * result + getBookedPeriodDays();
-      result = 31 * result + getBorrowerName().hashCode();
+      result = 31 * result + getUser().hashCode();
       return result;
    }
 

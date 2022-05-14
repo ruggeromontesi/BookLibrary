@@ -2,9 +2,13 @@ package com.ruggero.booklibrary.service;
 
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
+import com.ruggero.booklibrary.dto.TakeBookDTO;
 import com.ruggero.booklibrary.entities.Book;
+import com.ruggero.booklibrary.entities.BookLibraryUser;
 import com.ruggero.booklibrary.repository.BookRepository;
+import com.ruggero.booklibrary.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -39,11 +43,41 @@ public class BookService {
 
    }
 
-   public List<Book> filterBook(String title, String author,String category, String language) {
-      return bookRepository.filterBook(title, author, category, language);
+   public List<Book> filterBook(String title, String author,String category, String language, String isbn, boolean taken) {
+      return bookRepository.filterBook(title, author, category, language,isbn, taken);
    }
 
    public void deleteAllBooks() {
       bookRepository.deleteAllBooks();
+   }
+
+   public void takeBook(TakeBookDTO dto) {
+      BookLibraryUser user = UserRepository.getInstance().getBookLibraryUserList().stream().filter(user1 ->
+         user1.getUserId().equals(dto.getUserId()))
+            .collect(Collectors.collectingAndThen(Collectors.toList(), list -> {
+               if (list.size() != 1) {
+                  throw new RuntimeException();
+               } else {
+                  return list.get(0);
+               }
+                  }));
+
+      Book book = bookRepository.getBookById(dto.getGuid()).get();
+
+      if (dto.getPeriodOfDays() < 60 && user.getBorrowedBooks().size() < 3  &&  book.getAvailable()) {
+         book.setUser(user);
+         book.setBookedPeriodDays(dto.getPeriodOfDays());
+         book.setAvailable(true);
+         user.getBorrowedBooks().add(book);
+      }
+
+      bookRepository.deleteBookById(book.getGuid());
+      bookRepository.save(book);
+
+
+
+
+
+
    }
 }

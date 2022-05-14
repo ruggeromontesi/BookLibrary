@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e7f006-d027-4f65-962c-00168dc7d2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/dto/TakeBookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/BookLibraryUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/BookList.json" beforeDir="false" afterPath="$PROJECT_DIR$/repository/BookList.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java" afterDir="false" />
     </list>
@@ -303,7 +308,9 @@
       <workItem from="1642505866747" duration="156000" />
       <workItem from="1652369480185" duration="9399000" />
       <workItem from="1652416929533" duration="7144000" />
-      <workItem from="1652437022393" duration="3533000" />
+      <workItem from="1652437022393" duration="8778000" />
+      <workItem from="1652469308914" duration="4763000" />
+      <workItem from="1652505125393" duration="2049000" />
     </task>
     <task id="LOCAL-00001" summary="improved formatting of  Book class">
       <created>1641803250712</created>
@@ -471,13 +478,63 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java</url>
-          <line>21</line>
+          <line>25</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/controllers/BookController.java</url>
-          <line>84</line>
+          <line>85</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/service/BookService.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
