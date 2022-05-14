@@ -6,9 +6,13 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -28,7 +32,7 @@ public class BookRepository {
       initialize();
    }
 
-   public List<Book> getAllBooks() {
+   public Collection<Book> getAllBooks() {
       return retrieve();
    }
 
@@ -44,7 +48,7 @@ public class BookRepository {
 
    public Book save(Book book) {
       Book returnValue;
-      List<Book> bookList = retrieve();
+      Set<Book> bookList = retrieve();
       bookList.add(book);
       store(bookList);
       returnValue =  book;
@@ -54,7 +58,7 @@ public class BookRepository {
 
    public void deleteBookById(String guid) {
       if (getBookById(guid).isPresent()) {
-         List<Book> retrievedBooks = retrieve();
+         Set<Book> retrievedBooks = retrieve();
          Book bookToBeRemoved =
                retrieve().stream().filter(b -> b.getGuid().equals(guid)).collect(Collectors.toList()).get(0);
          retrievedBooks.remove(bookToBeRemoved);
@@ -93,8 +97,8 @@ public class BookRepository {
       }
    }
 
-   private List<Book> retrieve() {
-      List<Book> resultValue = new ArrayList<>();
+   private Set<Book> retrieve() {
+      Set<Book> resultValue = new TreeSet<>(Comparator.comparingInt(Book::getId));
       File datafile = new File(filePath);
       Scanner scanner;
       String value = "";
@@ -111,7 +115,7 @@ public class BookRepository {
       if (!value.equals("")) {
          try {
             ObjectMapper objectMapper =  new ObjectMapper();
-            resultValue = objectMapper.readValue(value, objectMapper.getTypeFactory().constructCollectionType(List.class,
+            resultValue = objectMapper.readValue(value, objectMapper.getTypeFactory().constructCollectionType(Set.class,
                   Book.class));
          } catch (IOException e) {
             System.out.println("Problem while parsing the retrieved String!");
@@ -121,7 +125,7 @@ public class BookRepository {
       return  resultValue;
    }
 
-   private void store(List<Book> bookList) {
+   private void store(Set<Book> bookList) {
       File datafile = new File(filePath);
       ObjectWriter objectWriter = new ObjectMapper().writer().withDefaultPrettyPrinter();
       try {
@@ -139,7 +143,7 @@ public class BookRepository {
    }
 
    public void deleteAllBooks() {
-      List<Book> bookList = retrieve();
+      Set<Book> bookList = retrieve();
       bookList.clear();
       store(bookList);
    }

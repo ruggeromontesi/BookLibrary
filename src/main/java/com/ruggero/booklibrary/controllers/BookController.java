@@ -1,5 +1,6 @@
 package com.ruggero.booklibrary.controllers;
 
+import java.util.Collection;
 import java.util.List;
 
 import com.ruggero.booklibrary.dto.TakeBookDTO;
@@ -50,7 +51,7 @@ public class BookController {
    * @return List<@Book> all books available in the connection
    **/
    @GetMapping("/books")
-   public List<Book> getAllBooks() {
+   public Collection<Book> getAllBooks() {
        return bookService.getAllBooks();
    }
 

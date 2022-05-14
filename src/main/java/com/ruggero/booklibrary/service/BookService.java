@@ -1,5 +1,6 @@
 package com.ruggero.booklibrary.service;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
@@ -34,7 +35,7 @@ public class BookService {
       return returnValue;
    }
 
-   public List<Book> getAllBooks() {
+   public Collection<Book> getAllBooks() {
       return bookRepository.getAllBooks();
    }
 

@@ -216,17 +216,17 @@ public class Book {
 
    @Override
    public int hashCode() {
-      int result = getId();
-      result = 31 * result + getTitle().hashCode();
-      result = 31 * result + getAuthor().hashCode();
-      result = 31 * result + getCategory().hashCode();
-      result = 31 * result + getLanguage().hashCode();
-      result = 31 * result + getPublicationDate().hashCode();
-      result = 31 * result + getIsbn().hashCode();
-      result = 31 * result + getGuid().hashCode();
-      result = 31 * result + (getAvailable() ? 1 : 0);
-      result = 31 * result + getBookedPeriodDays();
-      result = 31 * result + getUser().hashCode();
+      int result = id;
+      result = 31 * result + title.hashCode();
+      result = 31 * result + author.hashCode();
+      result = 31 * result + category.hashCode();
+      result = 31 * result + language.hashCode();
+      result = 31 * result + publicationDate.hashCode();
+      result = 31 * result + isbn.hashCode();
+      result = 31 * result + guid.hashCode();
+      result = 31 * result + (available ? 1 : 0);
+      result = 31 * result + bookedPeriodDays;
+      result = 31 * result + (user != null ? user.hashCode() : 0);
       return result;
    }
 
