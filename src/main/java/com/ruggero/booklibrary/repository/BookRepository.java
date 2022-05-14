@@ -62,14 +62,14 @@ public class BookRepository {
       }
    }
 
-   public List<Book> filterBook(String title, String author, String category, String language, String isbn, boolean taken) {
+   public List<Book> filterBook(String title, String author, String category, String language, String isbn, boolean available) {
       return retrieve().stream().filter(book ->
                (title.equals("all") ^ book.getTitle().contains(title))
                      && (author.equals("all") ^ book.getAuthor().equals(author))
                      && (category.equals("all") ^ book.getCategory().equals(category))
                      && (language.equals("all") ^ book.getLanguage().equals(language))
                      && (isbn.equals("all") ^ book.getIsbn().equals(isbn))
-                     && (book.getAvailable() == taken)
+                     && (book.getAvailable() == available)
       ).collect(Collectors.toList());
    }
 

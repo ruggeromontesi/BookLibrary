@@ -71,7 +71,7 @@ public class BookController {
     * @param category all books with field category equal to this parameter are retrieved
     * @param language all books with field category equal to this parameter are retrieved
     * @param isbn all books with field category equal to this parameter are retrieved
-    * @param taken all books with field taken equal to this parameter are retrieved
+    * @param available all books with field taken equal to this parameter are retrieved
     * @return Book
     */
    @GetMapping("/books/filter")
@@ -81,9 +81,9 @@ public class BookController {
                                 @RequestParam(value = "category", defaultValue = "all") String category,
                                 @RequestParam(value = "language", defaultValue = "all") String language,
                                 @RequestParam(value = "isbn", defaultValue = "all") String isbn,
-                                @RequestParam(value = "taken", defaultValue = "false") boolean taken
+                                @RequestParam(value = "available", defaultValue = "true") boolean available
                                 ) {
-      return bookService.filterBook(title,author, category, language, isbn, taken);
+      return bookService.filterBook(title,author, category, language, isbn, available);
    }
 
 
