@@ -1,1 +1,15 @@
-[ ]
+[ {
+  "id" : 2,
+  "title" : "Java: A Beginner?s Guide, Eighth Edition",
+  "author" : "Herbert Schildt",
+  "category" : "Computers - Programming",
+  "language" : "english",
+  "publicationDate" : "23.10.2018",
+  "isbn" : "9781260440225",
+  "guid" : "c8812bb1-6263-4a04-9442-cb4f86cc6eb7",
+  "available" : false,
+  "bookedPeriodDays" : 20,
+  "user" : {
+    "userId" : "ruggero"
+  }
+} ]

@@ -67,17 +67,26 @@ public class BookService {
       if (dto.getPeriodOfDays() < 60 && user.getBorrowedBooks().size() < 3  &&  book.getAvailable()) {
          book.setUser(user);
          book.setBookedPeriodDays(dto.getPeriodOfDays());
-         book.setAvailable(true);
+         book.setAvailable(false);
          user.getBorrowedBooks().add(book);
       }
 
       bookRepository.deleteBookById(book.getGuid());
       bookRepository.save(book);
 
+   }
 
+   public Book returnBook(String guid) {
+      Book book = getBookById(guid);
+      BookLibraryUser user = book.getUser();
+      book.setAvailable(true);
+      book.setUser(null);
+      book.setBookedPeriodDays(0);
+      bookRepository.deleteBookById(guid);
 
+      user.getBorrowedBooks().remove(book);
 
-
+      return  bookRepository.save(book);
 
    }
 }

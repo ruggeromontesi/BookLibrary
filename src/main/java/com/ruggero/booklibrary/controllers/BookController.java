@@ -95,10 +95,21 @@ public class BookController {
        bookService.deleteAllBooks();
    }
 
-
+   /** Rest API endpoint to take a book.
+    * @param dto
+    * @return Book
+    * */
    @PostMapping("/books/take")
    public Book takeBook(@RequestBody TakeBookDTO dto) {
       bookService.takeBook(dto);
       return null;
    }
+
+   @PostMapping("/books/return/{guid}")
+   public Book returnBook(@PathVariable("guid") String guid) {
+      bookService.takeBook(dto);
+      return null;
+   }
+
+
 }

@@ -247,6 +247,85 @@
 			]
 		},
 		{
+			"name": "Filter",
+			"item": [
+				{
+					"name": "Filter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \r\n       \"author\": \"aaaaaaaa\",\r\n       \"category\": \"bbbbbbb\"\r\n       \r\n       \r\n        \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ruggero/books/filter?language=english",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruggero",
+								"books",
+								"filter"
+							],
+							"query": [
+								{
+									"key": "language",
+									"value": "english"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Take book",
+			"item": [
+				{
+					"name": "TakeBook",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n     \"guid\":\"69bef7ba-3ed2-4c0c-b10d-a59755255387\",\r\n     \"userId\":\"ruggero\",\r\n     \"periodOfDays\":20\r\n\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ruggero/books/take",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruggero",
+								"books",
+								"take"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "add a book dummy",
 			"request": {
 				"method": "POST",
@@ -299,45 +378,6 @@
 					"path": [
 						"visma",
 						"books"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Filter",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n      \r\n       \"author\": \"aaaaaaaa\",\r\n       \"category\": \"bbbbbbb\"\r\n       \r\n       \r\n        \r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:8080/ruggero/books/filter?language=english",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"ruggero",
-						"books",
-						"filter"
-					],
-					"query": [
-						{
-							"key": "language",
-							"value": "english"
-						}
 					]
 				}
 			},
