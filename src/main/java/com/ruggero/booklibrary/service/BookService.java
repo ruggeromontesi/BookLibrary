@@ -51,7 +51,7 @@ public class BookService {
       bookRepository.deleteAllBooks();
    }
 
-   public void takeBook(TakeBookDTO dto) {
+   public Book takeBook(TakeBookDTO dto) {
       BookLibraryUser user = UserRepository.getInstance().getBookLibraryUserList().stream().filter(user1 ->
          user1.getUserId().equals(dto.getUserId()))
             .collect(Collectors.collectingAndThen(Collectors.toList(), list -> {
@@ -73,6 +73,7 @@ public class BookService {
 
       bookRepository.deleteBookById(book.getGuid());
       bookRepository.save(book);
+      return bookRepository.getBookById(dto.getGuid()).get();
 
    }
 

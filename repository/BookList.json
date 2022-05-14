@@ -1,15 +1,55 @@
 [ {
-  "id" : 2,
-  "title" : "Java: A Beginner?s Guide, Eighth Edition",
+  "id" : 15,
+  "title" : "Java: A Beginner’s Guide, Eighth Edition",
   "author" : "Herbert Schildt",
   "category" : "Computers - Programming",
   "language" : "english",
   "publicationDate" : "23.10.2018",
   "isbn" : "9781260440225",
-  "guid" : "c8812bb1-6263-4a04-9442-cb4f86cc6eb7",
+  "guid" : "370ad579-9a47-4446-af15-3df1e64ecd83",
   "available" : false,
   "bookedPeriodDays" : 20,
   "user" : {
     "userId" : "ruggero"
   }
+}, {
+  "id" : 16,
+  "title" : "OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808",
+  "author" : "Jeanne Boyarsky, Scott Selikoff",
+  "category" : "Computers - Computer Certification & Training",
+  "language" : "english",
+  "publicationDate" : "23.01.2014",
+  "isbn" : "1118957407",
+  "guid" : "a4b5d1e0-6237-4f6b-bbfa-09a211a0900c",
+  "available" : false,
+  "bookedPeriodDays" : 20,
+  "user" : {
+    "userId" : "ruggero"
+  }
+}, {
+  "id" : 52,
+  "title" : "Java The Complete Reference Eleventh Edition",
+  "author" : "Herbert Schildt",
+  "category" : "Computers - Programming",
+  "language" : "english",
+  "publicationDate" : "02.04.2019",
+  "isbn" : "1260440230",
+  "guid" : "0508d6f7-7a9b-475a-ad1f-2ba1a4c211a9",
+  "available" : false,
+  "bookedPeriodDays" : 20,
+  "user" : {
+    "userId" : "ruggero"
+  }
+}, {
+  "id" : 20,
+  "title" : "OCA / OCP Java SE 8 Programmer Practice Tests",
+  "author" : "Scott Selikoff, Jeanne Boyarsky",
+  "category" : "programming language",
+  "language" : "english",
+  "publicationDate" : "23.04.2021",
+  "isbn" : "1234567890123",
+  "guid" : "87265221-2913-4275-b464-eee251559c86",
+  "available" : true,
+  "bookedPeriodDays" : 0,
+  "user" : null
 } ]

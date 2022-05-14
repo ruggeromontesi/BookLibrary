@@ -107,8 +107,7 @@ public class BookController {
 
    @PostMapping("/books/return/{guid}")
    public Book returnBook(@PathVariable("guid") String guid) {
-      bookService.takeBook(dto);
-      return null;
+      return bookService.returnBook(guid);
    }
 
 
