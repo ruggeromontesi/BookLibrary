@@ -1,24 +1,12 @@
 [ {
-  "id" : 17,
+  "id" : 3,
   "title" : "Java: A Beginner?s Guide, Eighth Edition",
   "author" : "Herbert Schildt",
   "category" : "Computers - Programming",
   "language" : "english",
   "publicationDate" : "23.10.2018",
   "isbn" : "9781260440225",
-  "guid" : "fc3e4557-e3f9-4511-a07d-b2c5e4ef5ac6",
-  "available" : true,
-  "bookedPeriodDays" : 0,
-  "user" : null
-}, {
-  "id" : 19,
-  "title" : "OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808",
-  "author" : "Jeanne Boyarsky, Scott Selikoff",
-  "category" : "Computers - Computer Certification & Training",
-  "language" : "english",
-  "publicationDate" : "23.01.2014",
-  "isbn" : "1118957407",
-  "guid" : "c5266312-c9cf-4ff7-8c1d-8f76cdb04a42",
+  "guid" : "4e8b7658-d2e6-4a58-8e8b-548b3db8f972",
   "available" : true,
   "bookedPeriodDays" : 0,
   "user" : null
