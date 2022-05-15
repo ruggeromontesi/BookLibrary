@@ -226,59 +226,8 @@ public class Book {
       result = 31 * result + guid.hashCode();
       result = 31 * result + (available ? 1 : 0);
       result = 31 * result + bookedPeriodDays;
-      result = 31 * result + (user != null ? user.hashCode() : 0);
+      //result = 31 * result + (user != null ? user.hashCode() : 0);
       return result;
    }
 
-   public boolean looseEquals(Object obj) {
-      if (this == obj) {
-         return true;
-      }
-      if (!(obj instanceof Book)) {
-         return false;
-      }
-      Book other = (Book) obj;
-      if (author == null) {
-         if (other.author != null) {
-            return false;
-         }
-      } else if (!author.equals(other.author)) {
-         return false;
-      }
-      if (category == null) {
-         if (other.category != null) {
-            return false;
-         }
-      } else if (!category.equals(other.category)) {
-         return false;
-      }
-
-      if (isbn != other.isbn) {
-         return false;
-      }
-      if (language == null) {
-         if (other.language != null) {
-            return false;
-         }
-      } else if (!language.equals(other.language)) {
-         return false;
-      }
-      if (title == null) {
-         if (other.title != null) {
-            return false;
-         }
-      } else if (!title.equals(other.title)) {
-         return false;
-      }
-      if (publicationDate == null) {
-         if (other.publicationDate != null) {
-            return false;
-         }
-      } else if ( ! publicationDate.equals(other.publicationDate))  {
-
-         System.out.println("different publication date!");
-         return false;
-      }
-      return true;
-   }
 }

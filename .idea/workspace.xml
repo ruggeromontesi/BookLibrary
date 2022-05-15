@@ -6,27 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81e7f006-d027-4f65-962c-00168dc7d2e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/BookLibraryApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/config/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/controllers/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/dto/TakeBookDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/BookLibraryUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/exceptions/DuplicatedGUIDException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/repository/BookRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-05-14T13-58-17_332-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ruggero/booklibrary/VismaTaskApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ruggero/booklibrary/controllers/BookRestControllerMvcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ruggero/booklibrary/controllers/BookRestControllerMvcTestOld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/BookList.json" beforeDir="false" afterPath="$PROJECT_DIR$/repository/BookList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruggero/booklibrary/entities/Book.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,6 +307,7 @@
       <workItem from="1652437022393" duration="8778000" />
       <workItem from="1652469308914" duration="4763000" />
       <workItem from="1652505125393" duration="14203000" />
+      <workItem from="1652591811556" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="improved formatting of  Book class">
       <created>1641803250712</created>
@@ -554,6 +537,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/repository/BookRepository.java</url>
           <line>128</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ruggero/booklibrary/entities/Book.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
